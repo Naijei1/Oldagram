@@ -5,19 +5,19 @@ A simple Instagram-style post feed built with HTML, CSS, and JavaScript. This pr
 
 ![Screenshot](https://github.com/Naijei1/Oldagram/blob/main/Oldagram-sc.png)
 
-## ✨ Features
+## Features
 
 - Like button with persistent counts using localStorage
 - Responsive layout with flexbox
 - Clean and semantic HTML structure
 - Dynamically rendered posts with JavaScript
 
-## 🚀 Live Demo
+## Live Demo
 
 [Try it here](https://oldagram-green.vercel.app/)  
 
-## 🛠️ Built With
+## Built With
 
-HTML5
+- HTML5
 - CSS3 (Flexbox, Responsive Design)
 - JavaScript (DOM Manipulation, localStorage)
