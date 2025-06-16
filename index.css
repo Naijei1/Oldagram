@@ -1,0 +1,117 @@
+@font-face {
+	font-family: SourceSan3;
+	src: url(SourceSans3-VariableFont_wght.ttf);
+}
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: SourceSan3;
+}
+
+/* Images */
+
+#logo {
+	width: 127px;
+	height: 33px;
+}
+
+.profile-img {
+	border-radius: 100px;
+	padding: 0px 7px 0px 0px;
+	width: 34px; /* CHANGE IMAGE SCALE */
+	display: inline;
+	float: left;
+}
+
+.post-img {
+	width: 375px;
+}
+
+.heart-img:hover,
+.heart-img:focus {
+	scale: 1.1;
+	transition: 0.2s;
+	cursor: pointer;
+}
+
+.heart-img:active {
+	scale: 0.9;
+	transition: 0.1s;
+}
+
+/* Layout */
+
+#top {
+	display: flex;
+	justify-content: space-between;
+	box-sizing: border-box;
+	padding: 17px 15px;
+	border-bottom: 1px #c6c6c6 solid;
+	position: fixed;
+	width: 100%;
+	top: 0px;
+	background-color: white;
+}
+
+main {
+	margin: 68px 0px 15px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+section {
+	padding: 0px 0px 16px 0px;
+	width: 375px;
+	border-top: lightgray solid 1px;
+}
+
+.post-header {
+	padding: 10px;
+}
+
+.action-container {
+	display: flex;
+	padding: 12px 10px 8px 10px;
+	margin: 0px;
+}
+
+.action-container li {
+	list-style: none;
+	margin: 0px;
+}
+
+.action-container img {
+	width: 25px;
+	margin-right: 10px;
+	vertical-align: bottom;
+	transition: 0.2s;
+}
+
+.discription-conrainer {
+	padding-left: 13px;
+}
+
+/* Text */
+
+h1,
+h2,
+p {
+	font-size: 0.813rem;
+	margin: 0px;
+}
+
+.subtext {
+	font-size: 0.75rem;
+}
+
+.discription-conrainer h2 {
+	margin-bottom: 8px;
+}
+
+.bold {
+	font-weight: 680;
+}
